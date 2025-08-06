@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temparature Converter</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+
+</head>
+
+<body>
+    <div class="outer-container">
+        <div class="inner-container">
+
+            <div class="title"><a href="#"><img src="assets/thermometer.png" width="40px" height="60px"></a>
+                <h1>Temperature Calulator</h1>
+            </div>
+            <div class="error">
+                <p id="error-msg" style="visibility: hidden;"></p>
+            </div>
+            <div class="temp-input">
+                <ul class="temp-list">
+                    <li class="temp-item">
+                        <label class="temp-label" for="celcius">Celsius:</label>
+                        <input onchange="toKF()" type="text" id="celcius" placeholder="Enter the temp in Celsius"
+                            class="celcius">
+                        °C
+                    </li>
+                    <li class="temp-item">
+                        <label class="temp-label" for="fahrenheit">Fahrenheit:</label>
+                        <input onchange="toCK()" type="text" id="fahrenheit" placeholder="Enter the temp in Fahrenheit"
+                            class="fahrenheit">
+                        °F
+                    </li>
+                    <li class="temp-item kelvin">
+                        <label class="temp-label" for="kelvin">Kelvin:</label>
+                        <input onchange="toCF()" type="text" id="kelvin" placeholder="Enter the temp in Kelvin"
+                            class="kelvin">
+                        K
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
