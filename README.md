@@ -18,8 +18,11 @@ A responsive and user-friendly **Temperature Converter** built using **HTML**, *
 
 ```plaintext
 temperature-converter/
-├── index.html       # Main HTML file with embedded CSS & JS
+├── index.html       # Main HTML file
+├── style.css        # Styles file
+├── script.js        # JS file
 ├── README.md        # Project documentation
+```
 
 🛠 Built With
 HTML5
@@ -30,4 +33,3 @@ JavaScript (ES6)
 
 🙋‍♀️ Author
 Ritushree L
-```
